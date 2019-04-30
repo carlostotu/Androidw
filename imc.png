@@ -1,0 +1,594 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cómo calcular el IMC 2019 (tabla OMS, fórmula, peso ideal...)</title>
+<meta name="Description" content="Cómo calcular el IMC (Índice de Masa Corporal) 2019: fórmula para realizar el cálculo, tabla de la OMS, clasificación del IMC... Cómo saber si tienes el peso ideal (hombres y mujeres) según la altura y mirando el porcentaje de grasa corporal y la grasa visceral en la cintura."/>
+<meta name="keywords" content="calcular, imc, peso, ideal"/>
+<meta property="og:title" content="Cómo calcular el IMC 2019 (tabla OMS, fórmula, peso ideal...)"/>
+<meta property="og:description" content="Cómo calcular el IMC (Índice de Masa Corporal) 2019: fórmula para realizar el cálculo, tabla de la OMS, clasificación del IMC... Cómo saber si tienes el peso ideal (hombres y mujeres) según la altura y mirando el porcentaje de grasa corporal y la grasa visceral en la cintura."/>
+<meta property="og:type" content="article"/>
+<meta property="og:locale" content="es_ES"/>
+<meta property="og:url" content="https://www.enterat.com/salud/imc-indice-masa-corporal.php"/>
+<meta property="og:image" content="https://www.enterat.com/_images/salud/imc.jpg"/>
+<meta property="og:site_name" content="ENTERAT.COM"/>  
+<meta property="fb:app_id" content="984855364914926"/>
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@enterat">
+
+
+ 
+<link href="../_css/bootstrap.min.css" rel="stylesheet">
+<link href="../_css/generales.css" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script type="text/javascript" src="../js/jquery-1.12.2.min.js"></script>
+
+ 
+<script>
+$(document).ready(function(){
+
+
+	$(".navbar-toggle").on("click", function () {
+    	$(this).toggleClass("active");
+	});
+	
+
+	$('.dropdown-toggle').hover(function() {
+		$(this).css("cursor", "default");
+	});
+
+	window.onscroll = function() { scrollFuncion() };
+	
+	function scrollFuncion() {
+		
+		if (screen.width>1200) {
+			publi_alto=300;
+		} else if (screen.width>992) {
+			publi_alto=90;
+		} else if (screen.width>768) {
+			publi_alto=60;
+		} else { 
+			publi_alto=100;
+		}
+		//alert(window.pageYOffset);
+	  if (window.pageYOffset >= publi_alto) {
+		//header.classList.add("sticky");
+		$('.menu').addClass("fijar");
+	  } else {
+		$('.menu').removeClass("fijar");
+	  }
+	}
+	
+	$('.dropdown-menu li a').click(function() {
+		event.stopPropagation();
+		$(this).parent().parent().css("display", "block");
+	});
+	
+	$('.dropdown').click(function() {
+	
+     	if (screen.width<992) {
+	  event.stopPropagation();
+	  $('.menu-shown').removeClass('menu-shown');
+	  $(this).find('.dropdown-menu').addClass("menu-shown");
+	  $('.dropdown-menu').not('.menu-shown').hide();	 
+	  $(this).find('.dropdown-menu').toggle();
+	 }
+	});
+
+	/* APA�O CHROME--*/
+	$(".dropdown-menu li a'").css("background-color", "#666");	
+							   
+});
+</script>
+
+ 
+<script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+      '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script>
+
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+	  var mapping = googletag.sizeMapping().
+      addSize([970, 0], [970, 250]).
+      addSize([728, 0], [728, 90]).
+      addSize([468, 0], [468, 60]). 
+      addSize([0, 0], [320, 100]).
+      build();
+    googletag.defineSlot('/4119404/Concursos_Gigabanner_970x250', [[970, 250], [728, 90], [468, 60], [320, 100]], 'div-gpt-ad-1442734463822-0').defineSizeMapping(mapping).addService(googletag.pubads());
+    googletag.defineSlot('/4119404/Concursos_MegaRoba_300x600', [300, 600], 'div-gpt-ad-1442734463822-2').addService(googletag.pubads());
+    googletag.defineSlot('/4119404/Concursos_MegaRoba_300x600_MOV', [300, 600], 'div-gpt-ad-1442734463822-3').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+
+ 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-7315673415482586",
+    enable_page_level_ads: true
+  });
+</script>
+
+
+ 
+<!-- Quantcast Choice. Consent Manager Tag -->
+<script type="text/javascript" async=true>
+    var elem = document.createElement('script');
+    elem.src = 'https://quantcast.mgr.consensu.org/cmp.js';
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+    (function() {
+    var gdprAppliesGlobally = true;
+    function addFrame() {
+        if (!window.frames['__cmpLocator']) {
+        if (document.body) {
+            var body = document.body,
+                iframe = document.createElement('iframe');
+            iframe.style = 'display:none';
+            iframe.name = '__cmpLocator';
+            body.appendChild(iframe);
+        } else {
+            // In the case where this stub is located in the head,
+            // this allows us to inject the iframe more quickly than
+            // relying on DOMContentLoaded or other events.
+            setTimeout(addFrame, 5);
+        }
+        }
+    }
+    addFrame();
+    function cmpMsgHandler(event) {
+        var msgIsString = typeof event.data === "string";
+        var json;
+        if(msgIsString) {
+        json = event.data.indexOf("__cmpCall") != -1 ? JSON.parse(event.data) : {};
+        } else {
+        json = event.data;
+        }
+        if (json.__cmpCall) {
+        var i = json.__cmpCall;
+        window.__cmp(i.command, i.parameter, function(retValue, success) {
+            var returnMsg = {"__cmpReturn": {
+            "returnValue": retValue,
+            "success": success,
+            "callId": i.callId
+            }};
+            event.source.postMessage(msgIsString ?
+            JSON.stringify(returnMsg) : returnMsg, '*');
+        });
+        }
+    }
+    window.__cmp = function (c) {
+        var b = arguments;
+        if (!b.length) {
+        return __cmp.a;
+        }
+        else if (b[0] === 'ping') {
+        b[2]({"gdprAppliesGlobally": gdprAppliesGlobally,
+            "cmpLoaded": false}, true);
+        } else if (c == '__cmp')
+        return false;
+        else {
+        if (typeof __cmp.a === 'undefined') {
+            __cmp.a = [];
+        }
+        __cmp.a.push([].slice.apply(b));
+        }
+    }
+    window.__cmp.gdprAppliesGlobally = gdprAppliesGlobally;
+    window.__cmp.msgHandler = cmpMsgHandler;
+    if (window.addEventListener) {
+        window.addEventListener('message', cmpMsgHandler, false);
+    }
+    else {
+        window.attachEvent('onmessage', cmpMsgHandler);
+    }
+    })();
+    window.__cmp('init', {
+    		'Language': 'es',
+		'Initial Screen Title Text': 'Uso de cookies',
+		'Initial Screen Reject Button Text': 'No acepto',
+		'Initial Screen Accept Button Text': 'Seguir navegando',
+		'Initial Screen Purpose Link Text': 'Más información',
+		'Purpose Screen Title Text': 'Uso de cookies',
+		'Purpose Screen Header Title Text': 'Configuración de privacidad',
+		'Purpose Screen Body Text': 'Puedes configurar tus preferencias y elegir como quieres que tus datos sean utilizados. Puedes elegir configurar tus preferencias solo con nosotros independientemente del resto de nuestros partners. Cada propósito tiene una descripción para que puedas saber como nosotros y nuestros partners utilizamos tus datos',
+		'Purpose Screen Enable All Button Text': 'Habilitar todo',
+		'Purpose Screen Vendor Link Text': 'Ver lista completa de partners',
+		'Purpose Screen Cancel Button Text': 'Cancelar',
+		'Purpose Screen Save and Exit Button Text': 'Guardar y salir',
+		'Vendor Screen Title Text': 'Uso de cookies',
+		'Vendor Screen Body Text': 'Puedes dar tu consentimiento de manera individual a cada partner. Ver la lista de todos los propósitos para los cuales utilizan tus datos para tener más información. En algunos casos, las empresas pueden revelar que usan tus datos sin pedir tu consentimiento, en función de intereses legítimos. Puedes hacer click en su política de privacidad para obtener más información al respecto o para rechazarlo.',
+		'Vendor Screen Accept All Button Text': 'Aceptar todo',
+		'Vendor Screen Reject All Button Text': 'Rechazar todo',
+		'Vendor Screen Purposes Link Text': 'Ver propósitos',
+		'Vendor Screen Cancel Button Text': 'Cancelar',
+		'Vendor Screen Save and Exit Button Text': 'Guardar y salir',
+		'Initial Screen Body Text': 'Nuestra web necesita del uso de cookies propias o de terceros para analizar las estadísticas de visitas y personalizar la publicidad. Si continúas navegando, aceptas su uso',
+		'Initial Screen Body Text Option': 1,
+		'Publisher Name': 'enterat.com',
+		'Publisher Logo': 'https://www.enterat.com/_images/estructura/logo-cookies.gif',
+		'Publisher Purpose IDs': [1,2,3,4,5],
+		'Post Consent Page': 'https://www.enterat.com/',
+		'Min Days Between UI Displays': NaN,
+		'No Option': false,
+		'Default Value for Toggles': 'on',
+        'Display Persistent Consent Link': false,
+
+    });
+</script>
+<!-- End Quantcast Choice. Consent Manager Tag -->
+    <style>
+        .qc-cmp-button {
+          background-color: #B60E1B !important;
+          border-color: #B60E1B !important;
+        }
+        .qc-cmp-button:hover {
+          background-color: transparent !important;
+          border-color: #B60E1B !important;
+        }
+        .qc-cmp-alt-action,
+        .qc-cmp-link {
+          color: #B60E1B !important;
+        }
+        .qc-cmp-button {
+          color: #1A1A1A !important;
+        }
+        .qc-cmp-button.qc-cmp-secondary-button {
+          border-color: #000000 !important;
+          background-color: transparent !important;
+        }
+        .qc-cmp-button.qc-cmp-secondary-button:hover {
+          background-color: #000000 !important;
+        }
+        .qc-cmp-ui,
+        .qc-cmp-ui .qc-cmp-main-messaging,
+        .qc-cmp-ui .qc-cmp-messaging,
+        .qc-cmp-ui .qc-cmp-beta-messaging,
+        .qc-cmp-ui .qc-cmp-title,
+        .qc-cmp-ui .qc-cmp-sub-title,
+        .qc-cmp-ui .qc-cmp-purpose-info,
+        .qc-cmp-ui .qc-cmp-table,
+        .qc-cmp-ui .qc-cmp-table-header,
+        .qc-cmp-ui .qc-cmp-vendor-list,
+        .qc-cmp-ui .qc-cmp-vendor-list-title {
+            color: #1A1A1A !important;
+        }
+        .qc-cmp-ui a,
+        .qc-cmp-ui .qc-cmp-alt-action {
+          color: #000000 !important;
+        }
+        .qc-cmp-ui {
+            background-color: #e8e8e8 !important;
+        }
+        .qc-cmp-publisher-purposes-table .qc-cmp-table-header {
+          background-color: #fafafa !important;
+        }
+        .qc-cmp-publisher-purposes-table .qc-cmp-table-row {
+          background-color: #ffffff !important;
+        }
+    </style>    
+    </head>
+
+<body>
+ 
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4e82ef1432f4edaf" async></script>
+
+ 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+ 
+<div class="cookieDiv" style="display:none;">
+<div class="center_cookies">
+<div class="izq_cookies">Utilizamos cookies propias y de terceros para mejorar la experiencia de navegaci&oacute;n, y ofrecer contenidos y publicidad de inter&eacute;s. Al continuar con la navegaci&oacute;n entendemos que se acepta nuestra <a href="https://www.enterat.com/nosotros/cookies.php" target="_blank">pol&iacute;tica de cookies</a>.
+</div>
+<div class="der_cookies"><a href="#" class="btn btn-primary boton_cookie" style="width:auto;">Aceptar</a></div>
+</div>
+</div>
+
+ 
+
+ 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-969870-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
+
+ 
+<meta name="theme-color" content="#B60E1B"/>
+
+
+
+ 
+<div class="container">
+
+ 
+<div class="row" align="center">
+
+    <div id='div-gpt-ad-1442734463822-0'>
+    <script type='text/javascript'>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1442734463822-0'); });
+    </script>
+    </div>
+
+</div>
+ 
+<div class="row cabecera">
+<nav class="navbar navbar-default" role="navigation">
+<div class="container menu">
+
+<div class="navbar-header">	
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Desplegar navegación</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="https://www.enterat.com"><img src="../_images/estructura/logo-mini.png"/></a>
+</div>
+<div class="collapse navbar-collapse navbar-ex1-collapse">
+<ul class="nav nav-pills">
+
+    	<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong>OCIO <span class="glyphicon glyphicon-menu-down"></span></strong></a> 
+        <ul class="dropdown-menu">
+        <li><a href="https://www.enterat.com/ocio/index-series.php">Series</a></li>
+        <li><a href="https://www.enterat.com/ocio/index-television.php">TV y radio</a></li>
+        <li><a href="https://www.enterat.com/ocio/index-cine.php">Cine</a></li>
+        <li><a href="https://www.enterat.com/ocio/index-musica.php">Música</a></li>
+        <li><a href="https://www.enterat.com/ocio/index-deporte.php">Deporte</a></li>
+        <li><a href="https://www.enterat.com/ocio/index-fiestas.php">Fiestas</a></li>
+        </ul>
+    </li>
+    
+    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong>SERVICIOS <span class="glyphicon glyphicon-menu-down"></span></strong></a>
+    	<ul class="dropdown-menu">
+        <li><a href="https://www.enterat.com/servicios/index-el-tiempo-webcams.php">El tiempo y webcams</a></li>
+        <li><a href="https://www.enterat.com/servicios/index-carreteras.php">Carreteras</a></li>
+        <li><a href="https://www.enterat.com/servicios/index-transportes.php">Transportes</a></li>
+        <li><a href="https://www.enterat.com/servicios/index-empleo.php">Empleo</a></li>
+        <li><a href="https://www.enterat.com/servicios/index-ninos.php">Niños</a></li>
+        <li><a href="https://www.enterat.com/servicios/index-tramites.php">Trámites</a></li>
+        </ul>
+    </li>
+
+    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong>ACTUALIDAD <span class="glyphicon glyphicon-menu-down"></span></strong></a>
+    	<ul class="dropdown-menu">
+        <li><a href="https://www.enterat.com/actualidad/index-noticias.php">Noticias</a></li>
+        <li><a href="https://www.enterat.com/actualidad/index-sociedad.php">Sociedad</a></li>
+        </ul>
+    </li>
+
+    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong>PLACERES <span class="glyphicon glyphicon-menu-down"></span></strong></a>
+    	<ul class="dropdown-menu">
+        <li><a href="https://www.enterat.com/placeres/index-gastronomia.php">Gastronomía</a></li>
+        <li><a href="https://www.enterat.com/placeres/index-turismo-escapadas.php">Turismo y escapadas</a></li>
+        <li><a href="https://www.enterat.com/placeres/index-parques-ocio.php">Parques de ocio</a></li>
+        </ul>
+    </li>
+
+    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong>ESTILO <span class="glyphicon glyphicon-menu-down"></span></strong></a>
+    	<ul class="dropdown-menu">
+        <li><a href="https://www.enterat.com/estilo/index-shopping.php">Shopping</a></li>
+        <li><a href="https://www.enterat.com/estilo/index-celebrities.php">Celebrities</a></li>
+        </ul>
+    </li>
+
+        <li><a href="https://www.enterat.com/tecno/"><strong>TECNO</strong></a></li>
+    
+    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong>VIDA SANA <span class="glyphicon glyphicon-menu-down"></span></strong></a> 
+    	<ul class="dropdown-menu">
+        <li><a href="https://www.enterat.com/salud/index-salud.php">Salud</a></li>
+        <li><a href="https://www.enterat.com/salud/index-alimentacion.php">Alimentación</a></li>
+        </ul>
+    </li>   
+
+</ul>
+</div>
+
+<!-- menu horizontal-->
+<div class="hidden-xs hidden-sm hidden-md"> 
+<div class="row texto_menu"><strong><a href="https://www.enterat.com/ocio/index-series.php">SERIES</a><a href="https://www.enterat.com/ocio/index-television.php">TELEVISIÓN</a><a href="https://www.enterat.com/ocio/index-cine.php">CINE</a><a href="https://www.enterat.com/servicios/index-el-tiempo-webcams.php">EL TIEMPO Y WEBCAMS</a><a href="https://www.enterat.com/servicios/index-transportes.php">TRANSPORTES</a><a href="https://www.enterat.com/placeres/index-turismo-escapadas.php">TURISMO</a></strong></div>
+</div>
+<!-- menu horizontal-->
+
+</div>
+</nav>
+</div>
+
+<div class="row">
+ 
+<div class="col-xs-12 col-md-8 izquierda">
+
+<div class="row">
+    <h1 class="titular_muygrande">Cómo calcular el IMC 2019 (tabla OMS, fórmula, peso ideal...)</h1>
+</div>
+
+<div class="row redes">
+	<div class="addthis_sharing_toolbox"></div>
+</div>
+
+
+<div class="row">
+	<img src="../_images/salud/imc.jpg" alt="Cómo calcular el IMC 2019 (tabla OMS, fórmula, peso ideal...)" border="0"/>
+</div>
+
+		 
+		<script type="text/javascript" class="teads" async src="//a.teads.tv/page/48753/tag"></script>
+		
+				<div class="row"> 
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- Adaptable -->
+		<ins class="adsbygoogle"
+		style="display:block"
+		data-ad-client="ca-pub-7315673415482586"
+		data-ad-slot="5712205935"
+		data-ad-format="auto"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		</div>
+
+		        <div class="row texto_noticia gris" align="center"><strong><a href="https://www.enterat.com/nosotros/contactar.php" target="_blank">¿QUIERES MEJORAR ESTE ARTÍCULO? <br>
+        Envíanos aquí cualquier sugerencia, crítica o mejora.</a></strong></div>
+
+
+
+		        <h2 class="texto_separador">Cómo calcular tu IMC  (usando la tabla de la OMS)</h2>
+        <div class="row texto_noticia">
+        - <strong>Menos de 18.50 de IMC</strong>: Bajo peso<br>
+        - <strong>Entre 18.50 y 24.99 de IMC</strong>: Peso normal<br>
+        - <strong>Entre 25.00 y 29.99 de IMC</strong>: Sobrepeso<br>
+        - <strong>Entre 30.00 y 39.99 de IMC</strong>: Obesidad<br>
+        - <strong>Más de 40.00 de IMC</strong>:	Obesidad mórbida<br>
+        <img src="../_images/salud/imctabla.gif" border="0"/> <br>
+        </div>
+        
+                <h2 class="texto_separador">Cómo calcular tu IMC exacto (fórmula)</h2>
+        <div class="row texto_noticia">
+        - <strong>La fórmula del IMC</strong>: peso (kg) / estatura (m)². Es decir, hay que dividir el peso (en kilos) entre la estatura (en metros) al cuadrado. Por ejemplo, <strong> </strong> para una persona que pese 87 kilos y mida 1,74 metros sería:<br><br>
+        <div align="center"><strong>87 / 3,03 (1,74  x 1,74) = 28,71</strong></div><br>
+        - <strong>El inventor de la fórmula</strong>: el Índice de Masa Corporal (IMC) o Body Mass Index (BMI) fue ideado en 1835 por  Lambert Adolphe Jacques Quételet, por lo que también recibe el nombre de índice de Quételets. Podéis usar también <a href="https://www.seedo.es/index.php/pacientes/calculo-imc" target="_blank">esta calculadora de la Sociedad Española para el Estudio de la Obesidad (SEEDO)</a>.<br>
+        </div>
+        
+        <div class="clearfix top_2 display:inline-block"></div> 
+
+		 
+        <div class="row visible-xs visible-sm">
+                <div id='div-gpt-ad-1442734463822-3' style='height:600px; width:300px;margin: 0 auto'>
+        <script type='text/javascript'>
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1442734463822-3'); });
+        </script>
+        </div>
+        		</div>
+
+        
+                <h2 class="texto_separador">Cómo saber si tienes el peso ideal en 3 pasos</h2>
+        <div class="row texto_noticia">
+        - <strong>1. Calcular el IMC</strong>: tal y como hemos explicado anteriormente.<br>
+        - <strong>2. Calcular el porcentaje de grasa</strong>: existen básculas en el mercado que cuentan con impedancia (miden la grasa enviando enviando una pequeña corriente eléctrica por tu cuerpo), siendo las más fiables las que tengan <a href="http://img.medicalexpo.com/images_me/photo-g/70259-6128727.jpg" target="_blank">seis puntos de medición, dos en manos y cuatro en pies</a>. Por otro lado, los investigadores de la Universidad de Navarra han desarrollado una fórmula denominada CUN-BAE <a href="https://elpais.com/descargables/2013/02/15/e1d53d86a5a77461063bd79fbd2b0772.xls">(descárgate la calculadora en Excel)</a> en la que, introduciendo edad, sexo, estatura y  peso, realiza un cálculo aproximado del porcentaje de grasa corporal (<a href="https://www.youtube.com/watch?v=aW8eSNjBaC0" target="_blank">ver vídeo explicativo</a>). En hombres -10% sería bajo, 10-20% normal, 20-25% sobrepeso y +25% obesidad. En mujeres -20% sería bajo, 20-30% normal , 30-35% sobrepeso y +35% obesidad.<br>
+        - <strong>3. Medir la grasa visceral en el abdomen</strong>: hay que poner la cinta métrica a la altura del ombligo sin apretar, con el abdomen relajado y  después de haber expulsado el aire. En hombres -94 cm. sería normal, 94-102 cm. riesgo alto y +102 cm. riesgo muy alto. En mujeres -80 cm. sería normal, 80-88 cm. riesgo alto y +88 cm. riesgo muy alto.<br>
+        </div>
+        
+                <h2 class="texto_separador">El problema de fijarse solo en el IMC</h2>
+        <div class="row texto_noticia">
+        - <strong>No distingue entre grasa y músculo</strong>: a pesar de que el IMC diga que una persona está en un valor normal, puede tener un índice de grasa superior a lo recomendado. Por contra, deportistas muy musculados pueden dar un nivel de IMC superior pero estar más saludables. Por ello, conviene calcular también el porcentaje de grasa (ver más abajo).<br>
+        - <strong>No distingue entre sexos</strong>: con el mismo IMC, las mujeres tienden a tener más grasa corporal que los hombres.<br>
+        - <strong>No distingue entre edades</strong>: con el mismo IMC, las personas de edad avanzada, en promedio, tienden a tener más grasa corporal que los adultos más jóvenes.<br>
+        - <strong>No presta atención a otros posibles riesgos</strong>: a pesar de un IMC aceptable, una personas puede desarrollar  enfermedades vinculadas  a la obesidad por tener un alto nivel de grasa abdominal (ver más abajo), por tener la presión arterial alta o por la falta de actividad física.<br>
+        </div>
+        
+                <h2 class="texto_separador">Fijarse en el porcentaje de grasa y menos en el IMC</h2>
+        <div class="videoYoutube">
+        <iframe src="https://www.youtube.com/embed/pJZOqxJ5lN4?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+                <h2 class="texto_separador">Cómo medir la grasa visceral y el porcentaje de grasa</h2>
+        <div class="videoYoutube">
+        <iframe src="https://www.youtube.com/embed/m2J1cEN-_RU?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+    
+    
+</div>
+
+
+<div class="col-md-4 visible-md visible-lg derecha">
+
+    <div class="row">
+
+		
+
+		                <div id='div-gpt-ad-1442734463822-2' style='height:600px; width:300px;'> 
+        <script type='text/javascript'>
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1442734463822-2'); });
+        </script> 
+        </div>
+
+		<p></p>
+		        <iframe width="300" height="175" src="https://datastudio.google.com/embed/reporting/1xTiU9WAcu_kha4ZnJ8PdxybQ08Int-im/page/1M" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        
+    </div>
+
+
+</div>
+</div>
+
+
+<p>&nbsp;</p>
+
+	<div class="visible-xs visible-sm"> 
+				<div class="row"> 
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- Adaptable -->
+		<ins class="adsbygoogle"
+		style="display:block"
+		data-ad-client="ca-pub-7315673415482586"
+		data-ad-slot="5712205935"
+		data-ad-format="auto"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		</div>
+
+		<p>&nbsp;</p>
+
+		        <div class="row" align="center"> 
+        <iframe width="300" height="175" src="https://datastudio.google.com/embed/reporting/1xTiU9WAcu_kha4ZnJ8PdxybQ08Int-im/page/1M" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        
+
+	</div>
+
+
+
+<div class="row pie texto_noticia_peq"> <strong>&copy; enterat.com</strong>.  <a href="https://www.enterat.com/nosotros/contactar.php">contacto</a> &middot; <a href="https://www.enterat.com/nosotros/boletin.php">bolet&iacute;n</a> &middot; <a href="https://www.enterat.com/nosotros/avisolegal.php">aviso legal</a> &middot; <a href="https://www.enterat.com/nosotros/politica-privacidad.php">privacidad</a> &middot; <a href="https://www.enterat.com/nosotros/cookies.php"> cookies</a> &middot; <a href="https://www.facebook.com/enteratcom/" target="_blank">facebook</a> &middot; <a href="https://twitter.com/enterat" target="_blank">twitter</a></div>
+
+
+<div class="row enlaces texto_noticia_peq center top_1">
+<strong>TODA LAS  SECCIONES</strong>: <a href="https://www.enterat.com/ocio/index-series.php">Series</a> ·  <a href="https://www.enterat.com/ocio/index-television.php">TV y radio</a> · <a href="https://www.enterat.com/ocio/index-cine.php">Cine</a> · <a href="https://www.enterat.com/ocio/index-musica.php">Música</a> · <a href="https://www.enterat.com/ocio/index-deporte.php">Deporte</a> · <a href="https://www.enterat.com/ocio/index-fiestas.php"> Fiestas</a> ·   <a href="https://www.enterat.com/servicios/index-el-tiempo-webcams.php">El tiempo y webcams</a> · <a href="https://www.enterat.com/servicios/index-carreteras.php">Carreteras</a> · <a href="https://www.enterat.com/servicios/index-transportes.php">Transportes</a> · <a href="https://www.enterat.com/servicios/index-empleo.php">Empleo</a> · <a href="https://www.enterat.com/servicios/index-ninos.php">Niños</a> · <a href="https://www.enterat.com/servicios/index-tramites.php">Trámites</a> · <a href="https://www.enterat.com/actualidad/index-noticias.php">Noticias</a> · <a href="https://www.enterat.com/actualidad/index-sociedad.php">Sociedad</a> · <a href="https://www.enterat.com/placeres/index-gastronomia.php">Gastronomía</a> · <a href="https://www.enterat.com/placeres/index-turismo-escapadas.php">Turismo y escapadas</a> · <a href="https://www.enterat.com/placeres/index-parques-ocio.php">Parques de ocio</a> · <a href="https://www.enterat.com/estilo/index-shopping.php">Shopping</a> · <a href="https://www.enterat.com/estilo/index-celebrities.php">Celebrities</a> · <a href="https://www.enterat.com/actualidad/"></a><a href="https://www.enterat.com/tecno/">Tecno</a> · <a href="https://www.enterat.com/salud/index-salud.php">Salud</a> · <a href="https://www.enterat.com/salud/index-alimentacion.php">Alimentación</a></div>
+
+
+
+</div>
+<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
